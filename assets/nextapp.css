@@ -1,13 +1,13 @@
 @font-face {
   font-family: Diatype;
-  src: url("{{ 'Diatype-300-Normal.woff2' | asset_url }}") format("woff2");
+  src: url("{{ '[Diatype-300-Normal.woff2]' | asset_url }}") format("[woff2]");
   font-display: swap;
   font-style: normal;
   font-weight: 300;
 }
 @font-face {
   font-family: Diatype;
-  src: url("{{ 'Diatype-300-Italic.woff2' | asset_url }}") format("woff2");
+  src: url("{{ '[Diatype-300-Italic.woff2]' | asset_url }}") format("[woff2]");
   font-display: swap;
   font-style: italic;
   font-weight: 300;
@@ -21,7 +21,7 @@
 }
 @font-face {
   font-family: Diatype;
-  src: url("{{ 'Diatype-400-Italic.woff2' | asset_url }}") format("woff2");
+  src: url("{{ '[Diatype-400-Italic.woff2]' | asset_url }}") format("[woff2]");
   font-display: swap;
   font-style: italic;
   font-weight: 400;
@@ -35,21 +35,21 @@
 }
 @font-face {
   font-family: Diatype;
-  src: url("{{ 'Diatype-500-Italic.woff2' | asset_url }}") format("woff2");
+  src: url("{{ '[Diatype-500-Italic.woff2]' | asset_url }}") format("[woff2]");
   font-display: swap;
   font-style: italic;
   font-weight: 500;
 }
 @font-face {
   font-family: Diatype;
-  src: url("{{ 'Diatype-700-Normal.woff2' | asset_url }}") format("woff2");
+  src: url("{{ '[Diatype-700-Normal.woff2]' | asset_url }}") format("[woff2]");
   font-display: swap;
   font-style: normal;
   font-weight: 700;
 }
 @font-face {
   font-family: Diatype;
-  src: url("{{ 'Diatype-700-Italic.woff2' | asset_url }}") format("woff2");
+  src: url("{{ '[Diatype-700-Italic.woff2]' | asset_url }}") format("[woff2]");
   font-display: swap;
   font-style: italic;
   font-weight: 700;
@@ -63,7 +63,7 @@
 }
 @font-face {
   font-family: Louize;
-  src: url("{{ 'Louize-400-Italic.woff2' | asset_url }}") format("woff2");
+  src: url("{{ '[Louize-400-Italic.woff2]' | asset_url }}") format("[woff2]");
   font-display: swap;
   font-style: italic;
   font-weight: 400;

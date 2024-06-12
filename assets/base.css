@@ -292,7 +292,7 @@ h5,
     font-size: calc(var(--font-heading-scale) * 5.2rem);
   }
 }
-
+/*
 h1,
 .h1 {
   font-size: calc(var(--font-heading-scale) * 3rem);
@@ -347,7 +347,7 @@ h5,
     font-size: calc(var(--font-heading-scale) * 1.3rem);
   }
 }
-
+*/
 h6,
 .h6 {
   color: rgba(var(--color-foreground), 0.75);

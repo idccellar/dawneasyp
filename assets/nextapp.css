@@ -56,7 +56,7 @@
 }
 @font-face {
   font-family: Louize;
-  src: url("{{ '[Louize-400-Normal.woff2]' | asset_url }}") format("[woff2]");
+  src: url("/cdn/shop/t/4/assets/Louize-400-Normal.woff2") format("woff2");
   font-display: swap;
   font-style: normal;
   font-weight: 400;

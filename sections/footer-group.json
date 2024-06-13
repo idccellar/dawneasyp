@@ -5,6 +5,12 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "html_content_D3wzpw": {
+          "type": "html_content",
+          "settings": {
+            "html_area": "<h3 class=\"typ-h3\">Welcome to a world of natural comfort<h3><\/h3>\n<\/h3>"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -28,6 +34,7 @@
         }
       },
       "block_order": [
+        "html_content_D3wzpw",
         "footer-0",
         "footer-1",
         "footer-2"
@@ -36,6 +43,7 @@
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,

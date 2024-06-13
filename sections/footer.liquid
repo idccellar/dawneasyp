@@ -153,6 +153,8 @@
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
                     </div>
+                {%- when 'html_content' -%}
+                  {{ block.settings.html_area }}  
                 {%- endcase -%}
               </div>
             {%- endfor -%}
@@ -321,6 +323,18 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+    "type": "html_content",
+    "name": "HTML Content",
+      "settings": [
+        {
+          "type": "html",
+          "id": "html_area",
+          "label": "Custom HTML",
+          "default": "<div><p>Content</p></div>"
+        }
+      ]
     },
     {
       "type": "link_list",

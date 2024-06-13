@@ -8,36 +8,19 @@
         "html_content_D3wzpw": {
           "type": "html_content",
           "settings": {
-            "html_area": "<h3 class=\"typ-h3\">Welcome to a world of natural comfort<h3><\/h3>\n<\/h3>"
+            "html_area": "<h3 class=\"typ-h3\">Welcome to a world of natural comfort<\/h3><h3><\/h3>"
           }
         },
-        "footer-0": {
-          "type": "link_list",
+        "html_content_AgLpTR": {
+          "type": "html_content",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
-        },
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Info",
-            "menu": "footer"
-          }
-        },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "html_area": "<form class=\"bg-brand-02 gap-small\" style=\"display: flex; flex-direction: row; border-radius: 48px;\">\n<input id=\"name\" placeholder=\"Name\" type=\"text\" name=\"name\" style=\"background-color: transparent; border: none; outline: none; padding-left: 16px;\"><button class=\"typ-cta no-select hover bg-brand-01 bg-brand-01--hover typ-light-01 style_cta-link__gZuZ8\" type=\"submit\"><span>Submit<\/span><\/button>\n<\/form>"
           }
         }
       },
       "block_order": [
         "html_content_D3wzpw",
-        "footer-0",
-        "footer-1",
-        "footer-2"
+        "html_content_AgLpTR"
       ],
       "settings": {
         "color_scheme": "scheme-1",

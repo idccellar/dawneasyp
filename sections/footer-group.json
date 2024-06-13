@@ -14,7 +14,7 @@
         "html_content_AgLpTR": {
           "type": "html_content",
           "settings": {
-            "html_area": "<form class=\"bg-brand-02 gap-small\" style=\"display: flex; flex-direction: row; border-radius: 48px;\">\n<input id=\"name\" placeholder=\"Name\" type=\"text\" name=\"name\" style=\"background-color: transparent; border: none; outline: none; padding-left: 16px;\"><button class=\"typ-cta no-select hover bg-brand-01 bg-brand-01--hover typ-light-01 style_cta-link__gZuZ8\" type=\"submit\"><span>Submit<\/span><\/button>\n<\/form>"
+            "html_area": "<a aria-disabled=\"false\" class=\"typ-cta no-select hover bg-brand-01 bg-brand-01--hover typ-light-01 style_cta-link__gZuZ8\" href=\"https:\/\/www.google.com\/\" target=\"_blank\"><span>Primary<\/span><\/a>\n\n<form class=\"bg-brand-02 gap-small\" style=\"display: flex; flex-direction: row; border-radius: 48px;\">\n<input id=\"name\" placeholder=\"Name\" type=\"text\" name=\"name\" style=\"background-color: transparent; border: none; outline: none; padding-left: 16px;\"><button class=\"typ-cta no-select hover bg-brand-01 bg-brand-01--hover typ-light-01 style_cta-link__gZuZ8\" type=\"submit\"><span>Submit<\/span><\/button>\n<\/form>"
           }
         }
       },

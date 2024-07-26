@@ -289,6 +289,14 @@
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+      <script>
+      (function() {
+        if (window.location.pathname.startsWith('/products/')) {
+          window.location.href = '/checkout';
+        }
+      })();
+    </script>
+    
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -360,12 +368,6 @@
     {%- endif -%}
     {{ 'nextapp.css' | asset_url | stylesheet_tag }}
     {{ 'easyptheme.css' | asset_url | stylesheet_tag }}}
-    <script>
-      (function() {
-        if (window.location.pathname.startsWith('/products/')) {
-          window.location.href = '/checkout';
-        }
-      })();
-    </script>
+
   </body>
 </html>

@@ -292,9 +292,9 @@
     <script>
       (function() {
         const pathname = window.location.pathname;
-        const regex = /^(\/collections|\/products|\/blogs)(\/|$)/;
-        if (regex.test(pathname)) {
-          window.location.href = 'https://easypeasy.com';
+        const allowedPaths = /^(\/checkouts|\/accounts)(\/|$)/;
+        if (!allowedPaths.test(pathname)) {
+          window.location.href = 'https://easypeasy.com/';
         }
       })();
     </script>

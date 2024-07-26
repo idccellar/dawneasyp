@@ -292,7 +292,7 @@
     <script>
       (function() {
         const pathname = window.location.pathname;
-        const allowedPaths = /^(\/checkouts|\/accounts)(\/|$)/;
+        const allowedPaths = /^(\/checkout|\/accounts)(\/|$)/;
         if (!allowedPaths.test(pathname)) {
           window.location.href = 'https://easypeasy.com/';
         }

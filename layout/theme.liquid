@@ -359,6 +359,13 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
     {{ 'nextapp.css' | asset_url | stylesheet_tag }}
-    {{ 'easyptheme.css' | asset_url | stylesheet_tag }}
+    {{ 'easyptheme.css' | asset_url | stylesheet_tag }}}
+    <script>
+      (function() {
+        if (window.location.pathname.startsWith('/products/')) {
+          window.location.href = '/checkout';
+        }
+      })();
+    </script>
   </body>
 </html>

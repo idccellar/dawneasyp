@@ -289,24 +289,13 @@
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
-      <script>
+    <script>
       (function() {
-      if (
-          window.location.pathname === '' ||  
-          window.location.pathname === '/' || 
-          window.location.pathname === '/collections' || 
-          window.location.pathname === '/collections/' || 
-          window.location.pathname.startsWith('/collections') ||
-          window.location.pathname === '/products' || 
-          window.location.pathname === '/products/' ||
-          window.location.pathname.startsWith('/products') ||
-          window.location.pathname === '/blogs' || 
-          window.location.pathname === '/blogs/' ||
-          window.location.pathname.startsWith('/blogs')
-          
-         ) {
-        window.location.href = 'https://cellar-door.io/';
-      }
+        const pathname = window.location.pathname;
+        const regex = /^(\/collections|\/products|\/blogs)(\/|$)/;
+        if (regex.test(pathname)) {
+          window.location.href = 'https://easypeasy.com';
+        }
       })();
     </script>
     

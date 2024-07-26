@@ -291,9 +291,15 @@
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
       <script>
       (function() {
-        if (window.location.pathname.startsWith('/products/')) {
-          window.location.href = '/checkout';
-        }
+      if (window.location.pathname === '/collections' || 
+          window.location.pathname.startsWith === '/collections/' || 
+          window.location.pathname === '/products' || 
+          window.location.pathname.startsWith === '/products/' || 
+          window.location.pathname === '/blogs' || 
+          window.location.pathname.startsWith === '/blogs/'
+         ) {
+        window.location.href = 'https://cellar-door.io/';
+      }
       })();
     </script>
     

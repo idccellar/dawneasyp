@@ -289,15 +289,7 @@
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
-    <script>
-      (function() {
-        const pathname = window.location.pathname;
-        const allowedPaths = /^(\/checkout|\/accounts)(\/|$)/;
-        if (!allowedPaths.test(pathname)) {
-          window.location.href = 'https://easypeasy.com/';
-        }
-      })();
-    </script>
+
     
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}

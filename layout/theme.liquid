@@ -291,8 +291,12 @@
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
       <script>
       (function() {
-      if (window.location.pathname === '/collections' || 
-          window.location.pathname.startsWith === '/collections/' || 
+      if (
+          window.location.pathname === '' ||  
+          window.location.pathname === '/' || 
+          window.location.pathname === '/collections' || 
+          window.location.pathname === '/collections/' || 
+          window.location.pathname.startsWith('/collections') ||
           window.location.pathname === '/products' || 
           window.location.pathname === '/products/' ||
           window.location.pathname.startsWith('/products') ||
